@@ -1,0 +1,133 @@
+body {
+    font-size: 13pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+#titleimage {
+    background: #a78a80;
+    background-image: url('/assets/images/landscape_ben_test_7.jpg');
+    background-size: cover;
+    background-size:1590px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: #fff;
+}
+*/
+
+
+#titleimage {
+    background: #fff;
+    background-image: url('/assets/images/landscape_ben_test_2019_1.jpg');
+    background-size: cover;
+    /*background-size:1590px;*/
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #174669;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+
+#titleimage:before {
+    content: "";
+    display: block;
+    padding-top:22%;
+}
+
+#titleimage .content {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-bottom:0.5em;
+}
+
+#titleimage h1 {
+    color: #174669;
+    font-size: 30pt;
+    float: left;
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: -6px 0 0 0 #fff, 6px 0 0 0 #fff;
+}
+
+#titleimage p {
+    font-size: 12pt;
+    float: left;
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: -6px 0 0 0 #fff, 6px 0 0 0 #fff;
+}
+
+#titleimage a {
+    color: #174669;
+}
+
+#footerbar {
+    background: #2676b1;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+#header {
+}
+
+
+#aboutme {
+    line-height: 1.8em;
+}
+
+#publications {
+    font-size: 13pt;
+    padding-bottom: 20pt;
+}
+
+#publications ul {
+    font-size: 12pt;
+    padding-left: 2px;
+} 
+
+#publications li {
+    list-style-type: none;
+    margin-bottom: 0.7em;
+    line-height: 1.5em;
+}
+
+#publications .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13pt;
+}
+
+#publications .authors .me {
+    font-style: italic;
+}
+
+#publications .award {
+    font-size: 10pt;
+}
+
+#employers {
+    padding-bottom: 20pt;
+}
+
+#employers ul {
+    font-size: 11pt;
+    padding-left: 2px;
+}
+
+#employers li {
+    list-style-type: none;
+    margin-bottom: 0.6em;
+    line-height: 1.4em;
+}
+
+#employers .name {
+    font-weight: normal;
+}
